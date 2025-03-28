@@ -5,6 +5,8 @@ body {
     background-attachment: fixed;
     background-size:cover;
     margin: 0px;
+    font-size:18px;
+    font-family:Arial, Helvetica, sans-serif
 }
 
 #header, .nav > a, #cta, #hero {
@@ -14,7 +16,17 @@ body {
 #header {
     background-color: #E9C499 ;
     height: 60px;
-    
+    padding-top: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.logo {
+    float:left
+}
+
+.nav {
+    float:right
 }
 
 a {
@@ -26,7 +38,10 @@ a:hover {
 }
 
 #hero {
-    font-size:22px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #hero > h1 {
@@ -41,11 +56,22 @@ a:hover {
     background-color: #e7b070;
 }
 
+.button {
+    padding: 10px 20px 10px 20px;
+    border-width:2px;
+    border-style:solid;
+    border-radius:10px;
+}
+
 #services {
     background-color: #fffaed6b;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .card {
     background-color:rgba(255, 240, 223, 0.486);
-    width:fit-content;
+    width:20%;
+    padding: 10px 20px 10px 20px
 }
